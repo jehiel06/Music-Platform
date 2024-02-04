@@ -6,59 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
-     <link rel="icon" href="images/logo.png">
     <script src="https://kit.fontawesome.com/e87ab4b193.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Music Platform</title>
+    <link rel=icon href="images\logo.png">
 </head>
 <body>
-
 <div id="ho">
-  <img src="images/login-logo.png">
+  <img src="">
+  <h2>Click My Music</h2>
 </div>
 
 <header class="menu">
 <nav>
-     <div class="img">
-    <img src="images/logo.png" alt="" class="logo-img">
-   </div>
-
-    <ul id="head-cont">
+  <div class="img"><img src="images/logo.png" alt="" class="logo-img"></div>
+  <ul id="head-cont">
         <li><a href="#" onclick="showContent('myMusic');removeContent('ho');" >My Music</a></li>
         <li><a href="#" onclick="showContent('exp');removeContent('ho');" >Explore</a></li>
         <li><a href="#" onclick="showContent('fy');removeContent('ho');" >For You</a></li>
         <li><a href="#" onclick="showContent('lib');removeContent('ho');" >Library</a></li>
         <li><a href="#" onclick="showContent('pre');removeContent('ho');" >Premium</a></li>           
-    </ul>
-
-    <div >
-    <form> <input type="search" name="search" pattern=".*\S.*" required id="search-song">
-        <button class="search-btn" type="submit">
-            <span>Search</span>
-        </button>
-    <div >
-        <img src="images/login-logo.png" class="login-img">
-        <a id="myBtn" onclick="removeElements()">Login</a>
-    </div>  
-       
-    </form>
-    </div> 
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-          <form class="f">
-            <span class="close">×</span>
-            <h3 id="h">LOGIN HERE</h3>
-            <b>Email or Username</b>
-            <input type="text/email" placeholder="Username" id="uname" required>
-            <b>Password</b>
-            <input type="password" placeholder="Password" id="pass" required>
-            <input type="button" value="Log In" id="sub"><br>
-            <a href="#"id="s"><pre>                            Forgot your password?</pre></a>
-            <p id="p">Don't have an account? <a id="s" href="#">Sign up</a></p>
-          </form>      
-        </div>
-    </div>
+  </ul>
     
+  <form> <input type="search" name="search" pattern=".*\S.*" required id="search-song">
+         <button class="search-btn" type="submit"><span>Search</span></button>
+         <img src="images/login-logo.png" class="login-img">
+         <a id="myBtn" onclick="removeElements()">Login</a>
+        
+  </form>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <form class="f">
+        <span class="close">×</span>
+        <h3 id="h">LOGIN HERE</h3>
+        <b>Email or Username</b>
+        <input type="text/email" placeholder="Username" id="uname" required>
+        <b>Password</b>
+        <input type="password" placeholder="Password" id="pass" required>
+        <input type="button" value="Log In" id="sub"><br>
+        <a href="#"id="s"><pre>                            Forgot your password?</pre></a>
+        <p id="p">Don't have an account? <a id="s" href="#">Sign up</a></p>
+      </form>      
+    </div>
+  </div>
 </nav>
 </header>
 
@@ -87,8 +77,7 @@
       <input type="range" min="1" max="100" value="99" class="volume-slider" id="remove2" onchange="setVolume()">
       <i class="fa fa-volume-up"></i>
     </div>
-
-    </div>
+</div>
 
 <div id="exp" class="content">
   <h2>Explore</h2>
@@ -109,8 +98,8 @@
 <footer class="footer">
   <div >
   <div class="row">
-  <a href="#"><i class="fa fa-facebook"></i></a>
-  <a href="https://www.instagram.com/__.lucky._.charms.__?igsh=MWlpNDM2OGs4czB3bQ==" target ="_blank" ><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/__.lucky._.charms.__?igsh=MWlpNDM2OGs4czB3bQ==" target ="_blank" ><i class="fa-brands fa-instagram"></i></a>
   <a href="#"><i class="fa fa-youtube"></i></a>
   <a href="#"><i class="fa fa-twitter"></i></a>
   </div>
