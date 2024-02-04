@@ -68,23 +68,84 @@ let curr_track = document.createElement('audio');
 
 let track_list =[
    {
-     name: "Night Owl",
-     artist: "Broke For Free",
-     image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-     path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3",
+      name:"Bodhai Kaname ",
+      artist:"Vishal Chandrashekhar",
+      image:"https://naalyrics.com/wp-content/uploads/2021/07/Bodhai-Kaname.jpg",
+      path:"songs//Bodhai Kaname.m4a",
    },
    {
-     name: "Enthusiast",
-     artist: "Tours",
-     image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-     path: "https://github.com/jehiel06/Music-Platform/blob/main/songs/Aye-Aye-Aye.mp3",
+      name:"En Iniya Thanimaye",
+      artist:"D. Imman",
+      image:"https://c.saavncdn.com/899/Teddy-Tamil-2020-20240204143901-500x500.jpg",
+      path:"songs//En Iniya Thanimaye.m4a",
    },
    {
-     name: "Shipping Lanes",
-     artist: "Chad Crouch",
-     image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-     path:  "songs//Aye-Aye-Aye.mp3"
+      name:"Kadhaippoma",
+      artist:"Leon James",
+      image:"https://c.saavncdn.com/435/Oh-My-Kadavule-Tamil-2020-20200207054852-500x500.jpg",
+      path:"songs//Kadhaippoma.m4a",
    },
+   {
+      name: "Aye Aye Aye",
+      artist: "Hip Hop Tamizha",
+      image: "https://a10.gaanacdn.com/gn_img/albums/0wrb4N3Lg7/wrb406YabL/size_l.webp",
+      path: "songs//Aye-Aye-Aye.mp3",
+    },
+   {
+      name:"Marappadhilai Nenje",
+      artist:"Leon James",
+      image:"https://c.saavncdn.com/323/Oh-My-Kadavule-Original-Background-Score-Additional-Songs--Tamil-2020-20200304182304-500x500.jpg",
+      path:"songs//Marappadhilai Nenje.m4a",
+   },
+  
+   {
+     name: "Nira",
+     artist: "Nivas K.Prasanna",
+     image: "https://c.saavncdn.com/790/Takkar-Tamil-2020-20230801204408-500x500.jpg",
+     path: "songs//Nira.m4a",
+   },
+   {
+      name: "Mudhal Nee Mudivum Nee",
+      artist: "Darbuka Siva, Sid Sriram",
+      image: "https://c.saavncdn.com/752/Mudhal-Nee-Mudivum-Nee-Title-Track-Trending-Version-Tamil-2023-20230424193324-500x500.jpg",
+      path:  "songs//Mudhal Nee Mudivum Nee.m4a",
+    },
+   {
+     name: "June Pona",
+     artist: "Harris Jayaraj",
+     image: "https://pics.filmaffinity.com/unnale_unnale-837268832-large.jpg",
+     path:  "songs//June-Pona.mp3"
+   },
+   {
+   name: "Orasaadha",
+   artist: "Vivek Siva-Mervin Solomon",
+   image: "https://c.saavncdn.com/331/Orasaadha-Madras-Gig--Tamil-2018-20180612071150-500x500.jpg",
+   path: "songs//Orasaadha.m4a",
+ },
+ {
+   name: "Tharame Tharame",
+   artist: "Ghibran",
+   image: "https://c.saavncdn.com/640/Kadaram-Kondan-Tamil-2019-20190717173037-500x500.jpg",
+   path: "songs//Thaarame Thaarame.m4a",
+ },
+ {
+   name: "Un Vizhigalil",
+   artist: "Anirudh Ravichander, Shruti Haasan",
+   image: "https://c.saavncdn.com/217/Maan-Karate-Tamil-2014-20190822142455-500x500.jpg",
+   path:  "songs//Un Vizhigalil.m4a",
+ },
+ {
+   name: "Urugi Urugi",
+   artist: "Anand Aravindakshan",
+   image: "https://c.saavncdn.com/720/Joe-Tamil-2023-20231118143405-500x500.jpg",
+   path: "songs//Urugi Urugi.m4a"
+ },
+ {
+   name: "Vaa Senthaazhini",
+   artist: "Justin Prabhakaran",
+   image: "https://c.saavncdn.com/926/Adiyae-Tamil-2023-20230818205510-500x500.jpg",
+   path: "songs//Vaa Senthaazhini.m4a"
+ }
  ];
 
  function loadTrack(track_index) {
