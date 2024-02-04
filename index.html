@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Summa</title>
+</head>
+<body>
+
+<div id="ho">
+  <img src="images/login-logo.png">
+</div>
+
+<header class="menu">
+<nav>
+     <div class="img">
+    <img src="images/logo.png" alt="" class="logo-img">
+   </div>
+
+    <ul id="head-cont">
+        <li><a href="#" onclick="showContent('myMusic');removeContent('ho');" >My Music</a></li>
+        <li><a href="#" onclick="showContent('exp');removeContent('ho');" >Explore</a></li>
+        <li><a href="#" onclick="showContent('fy');removeContent('ho');" >For You</a></li>
+        <li><a href="#" onclick="showContent('lib');removeContent('ho');" >Library</a></li>
+        <li><a href="#" onclick="showContent('pre');removeContent('ho');" >Premium</a></li>           
+    </ul>
+
+    <div >
+    <form> <input type="search" name="search" pattern=".*\S.*" required id="search-song">
+        <button class="search-btn" type="submit">
+            <span>Search</span>
+        </button>
+    </form>
+    </div> 
+
+    <div >
+        <img src="images/login-logo.png" class="login-img">
+        <a id="myBtn" onclick="removeElements()">Login</a>
+    </div>  
+       
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <form class="f">
+            <span class="close">×</span>
+            <h3 id="h">LOGIN HERE</h3>
+            <b>Email or Username</b>
+            <input type="text/email" placeholder="Username" id="uname" required>
+            <b>Password</b>
+            <input type="password" placeholder="Password" id="pass" required>
+            <input type="button" value="Log In" id="sub"><br>
+            <a href="#"id="s"><pre>                            Forgot your password?</pre></a>
+            <p id="p">Don't have an account? <a id="s" href="#">Sign up</a></p>
+          </form>      
+        </div>
+    </div>
+    
+</nav>
+</header>
+
+<div id="myMusic" class="content">
+    <div class="det">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+      <div class="track-artist">Track Artist</div>
+    </div>
+
+    <div class="buttons">
+      <div class="prev-song" onclick="prevSong()"><i class="fa fa-step-backward fa-2x"></i></div>
+      <div class="playpause-song" onclick="playpauseSong()"><i class="fa fa-play-circle fa-5x"></i></div>
+      <div class="next-song" onclick="nextSong()"><i class="fa fa-step-forward fa-2x"></i></div>
+    </div>
+
+    <div class="slider-container">
+      <div class="current-time">00:00</div>
+      <input type="range" min="1" max="100" value="0" class="seek-slider"  onchange="seekTo()">
+      <div class="total-duration">00:00</div>
+    </div>
+
+    <div class="slider-container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100" value="99" class="volume-slider" id="remove2" onchange="setVolume()">
+      <i class="fa fa-volume-up"></i>
+    </div>
+
+    </div>
+
+<div id="exp" class="content">
+  <h2>Explore</h2>
+</div>
+
+<div id="fy" class="content">
+  <h2>For You</h2>
+</div>
+
+<div id="lib" class="content">
+  <h2>Library</h2>
+</div>
+
+<div id="pre" class="content">
+  <h2>Premium</h2>
+</div>
+
+<footer class="footer">
+  <div >
+  <div class="row">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="https://www.instagram.com/__.lucky._.charms.__?igsh=MWlpNDM2OGs4czB3bQ==" target ="_blank" ><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-youtube"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  </div>
+  
+  <div class="row">
+  <ul>
+  <li><a href="#">Contact us</a></li>
+  <li><a href="#">Our Services</a></li>
+  <li><a href="#">Privacy Policy</a></li>
+  <li><a href="#">Terms & Conditions</a></li>
+  <li><a href="#">Career</a></li>
+  </ul>
+  </div>
+  
+  <div class="row">
+  Copyright © 2024 Inferno - All rights reserved || Designed By: Jehiel
+  </div>
+  </div>
+  </footer>
+
+<script src="script.js" async defer></script> 
+
+</body>
+</html>
