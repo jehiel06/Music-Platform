@@ -2,7 +2,7 @@ body{
     background-color: wheat;
     margin:0;
     color: white;
- 
+    overflow-x: hidden;
     }
 header {
     display: flex;
