@@ -71,19 +71,19 @@ let track_list =[
       name:"Bodhai Kaname ",
       artist:"Vishal Chandrashekhar",
       image:"https://naalyrics.com/wp-content/uploads/2021/07/Bodhai-Kaname.jpg",
-      path:"songs//Bodhai Kaname.mp3",
+      path:"songs//Bodhai Kaname.m4a",
    },
    {
       name:"En Iniya Thanimaye",
       artist:"D. Imman",
       image:"https://c.saavncdn.com/899/Teddy-Tamil-2020-20240204143901-500x500.jpg",
-      path:"songs//En Iniya Thanimaye.mp3",
+      path:"songs//En Iniya Thanimaye.m4a",
    },
    {
       name:"Kadhaippoma",
       artist:"Leon James",
       image:"https://c.saavncdn.com/435/Oh-My-Kadavule-Tamil-2020-20200207054852-500x500.jpg",
-      path:"songs//Kadhaippoma.mp3",
+      path:"songs//Kadhaippoma.m4a",
    },
    {
       name: "Aye Aye Aye",
