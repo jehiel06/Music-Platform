@@ -77,7 +77,7 @@ let track_list =[
      name: "Enthusiast",
      artist: "Tours",
      image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-     path: "songs//Aye-Aye-Aye.mp3",
+     path: "https://github.com/jehiel06/Music-Platform/blob/main/songs/Aye-Aye-Aye.mp3",
    },
    {
      name: "Shipping Lanes",
