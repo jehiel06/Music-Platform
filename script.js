@@ -77,13 +77,13 @@ let track_list =[
      name: "Enthusiast",
      artist: "Tours",
      image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-     path: "songs\Aye-Aye-Aye.mp3",
+     path: "songs//Aye-Aye-Aye.mp3",
    },
    {
      name: "Shipping Lanes",
      artist: "Chad Crouch",
      image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-     path:  "A:\Redmi Note 10S\Music\Aambalaikum-Pombalaikum.mp3",
+     path:  "songs//Aye-Aye-Aye.mp3"
    },
  ];
 
