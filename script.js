@@ -70,7 +70,7 @@ let track_list =[
    {
       name:"Bodhai Kaname ",
       artist:"Vishal Chandrashekhar",
-      image:"https://naalyrics.com/wp-content/uploads/2021/07/Bodhai-Kaname.jpg",
+      image:"https://c.saavncdn.com/930/Oh-Manapenne-Tamil-2021-20211019011817-500x500.jpg",
       path:"songs//Bodhai Kaname.m4a",
    },
    {
